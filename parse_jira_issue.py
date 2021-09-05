@@ -1,4 +1,6 @@
-import sys
+import json
 
-issue_data = sys.argv[1]
-print(issue_data)
+issue_data= open('issueData.json')
+json_data = json.loads(issue_data)
+
+print(json_data)
