@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="5" time="0.121" timestamp="2021-09-27T13:10:31.997221" hostname="DESKTOP-TN8K8MI"><testcase classname="tests.test_test.TestClass" name="test_10005_" time="0.001" /><testcase classname="tests.test_test.TestClass" name="test_10004_" time="0.001"><failure message="assert True is False">self = &lt;tests.test_test.TestClass object at 0x0000025B89D1A850&gt;
+
+    @pytest.mark.smoke
+    def test_10004_(self):
+&gt;       assert True is False
+E       assert True is False
+
+tests\test_test.py:12: AssertionError</failure></testcase><testcase classname="tests.test_test.TestClass" name="test_10006_" time="0.001" /><testcase classname="tests.test_test.TestClass" name="test_10007_" time="0.001"><failure message="assert True is False">self = &lt;tests.test_test.TestClass object at 0x0000025B89D65AC0&gt;
+
+    @pytest.mark.smoke
+    def test_10007_(self):
+&gt;       assert True is False
+E       assert True is False
+
+tests\test_test.py:20: AssertionError</failure></testcase><testcase classname="tests.test_test.TestClass" name="test_10008_" time="0.001" /></testsuite></testsuites>

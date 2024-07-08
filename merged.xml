@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<testsuites failures="5" errors="0" tests="12">
+  <testsuite name="pytest" errors="0" failures="3" skipped="0" tests="7" time="0.151" timestamp="2021-09-27T13:10:19.653230" hostname="DESKTOP-TN8K8MI">
+    <testcase classname="tests.test_test.TestClass" name="test_10009_" time="0.002">
+      <failure message="assert True is False">self = &lt;tests.test_test.TestClass object at 0x00000276E9F39250&gt;
+
+    def test_10009_(self):
+&gt;       assert True is False
+E       assert True is False
+
+tests\test_test.py:27: AssertionError</failure>
+    </testcase>
+    <testcase classname="tests.test_test.TestClass" name="test_10010_" time="0.001"/>
+    <testcase classname="tests.test_test.TestClass" name="test_10011_" time="0.001">
+      <failure message="assert True is False">self = &lt;tests.test_test.TestClass object at 0x00000276E9F7E9D0&gt;
+
+    def test_10011_(self):
+&gt;       assert True is False
+E       assert True is False
+
+tests\test_test.py:33: AssertionError</failure>
+    </testcase>
+    <testcase classname="tests.test_test.TestClass" name="test_10012_" time="0.001"/>
+    <testcase classname="tests.test_test.TestClass" name="test_10013_" time="0.001">
+      <failure message="assert True is False">self = &lt;tests.test_test.TestClass object at 0x00000276E9FA6FD0&gt;
+
+    def test_10013_(self):
+&gt;       assert True is False
+E       assert True is False
+
+tests\test_test.py:39: AssertionError</failure>
+    </testcase>
+    <testcase classname="tests.test_test.TestClass" name="test_10014_" time="0.001"/>
+    <testcase classname="tests.test_test.TestClass" name="test_10015_" time="0.001"/>
+  </testsuite>
+  <testsuite name="pytest" errors="0" failures="2" skipped="0" tests="5" time="0.121" timestamp="2021-09-27T13:10:31.997221" hostname="DESKTOP-TN8K8MI">
+    <testcase classname="tests.test_test.TestClass" name="test_10005_" time="0.001"/>
+    <testcase classname="tests.test_test.TestClass" name="test_10004_" time="0.001">
+      <failure message="assert True is False">self = &lt;tests.test_test.TestClass object at 0x0000025B89D1A850&gt;
+
+    @pytest.mark.smoke
+    def test_10004_(self):
+&gt;       assert True is False
+E       assert True is False
+
+tests\test_test.py:12: AssertionError</failure>
+    </testcase>
+    <testcase classname="tests.test_test.TestClass" name="test_10006_" time="0.001"/>
+    <testcase classname="tests.test_test.TestClass" name="test_10007_" time="0.001">
+      <failure message="assert True is False">self = &lt;tests.test_test.TestClass object at 0x0000025B89D65AC0&gt;
+
+    @pytest.mark.smoke
+    def test_10007_(self):
+&gt;       assert True is False
+E       assert True is False
+
+tests\test_test.py:20: AssertionError</failure>
+    </testcase>
+    <testcase classname="tests.test_test.TestClass" name="test_10008_" time="0.001"/>
+  </testsuite>
+</testsuites>
